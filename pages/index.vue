@@ -1,9 +1,20 @@
 <template>
-  <Tutorial/>
+  <div>
+    {{ message }}
+    <Tutorial/>
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { defineComponent, ref } from '#imports'
 
-export default Vue.extend({})
+export default defineComponent({
+  setup() {
+    const message = ref('hi!');
+
+    return {
+      message
+    }
+  }
+})
 </script>
