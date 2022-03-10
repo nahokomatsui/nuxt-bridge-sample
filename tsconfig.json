@@ -15,7 +15,7 @@
     "types": [
       "@nuxt/types",
       "@types/node",
-      "unplugin-vue2-script-setup/types"
+      "@nuxt/bridge/node_modules/unplugin-vue2-script-setup/types"
     ]
   },
   "exclude": [
